@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362734658442" ignored="false" />
     <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731629689" ignored="false" />
-    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362734412880" ignored="false" />
+    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362735243088" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
     <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732063525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,7 +89,7 @@
       <file leaf-file-name="news_view.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/news_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="436" selection-end="436" vertical-scroll-proportion="0.2925457">
+            <state line="21" column="23" selection-start="635" selection-end="635" vertical-scroll-proportion="0.47257385">
               <folding />
             </state>
           </provider>
@@ -515,7 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/news_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="436" selection-end="436" vertical-scroll-proportion="0.2925457">
+        <state line="21" column="23" selection-start="635" selection-end="635" vertical-scroll-proportion="0.47257385">
           <folding />
         </state>
       </provider>

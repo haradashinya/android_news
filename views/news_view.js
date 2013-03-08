@@ -14,12 +14,16 @@ var NewsView = function(em,data){
     };
 
 
-//    $("a").bind("click",function(e){
-//        e.preventDefault();
-//        console.log($(this).attr("href"));
-//        var href = $(this).attr("href");
-//
-//    });
+    $("a").bind("click",function(e){
+        e.preventDefault();
+        var href = $(this).attr("href");
+        // implement animation.
+        $("#main-view").animate({
+            opacity: 0.0
+        },500,"ease-out");
+        window.location.href = href;
+
+    });
 
     return self;
 };
