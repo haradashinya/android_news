@@ -4,9 +4,9 @@
     <list default="true" id="a40d7241-0c72-457f-a9dc-743f44eacb87" name="Default" comment="" />
     <ignored path="android_news.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731382952" ignored="false" />
+    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732596827" ignored="false" />
     <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731629689" ignored="false" />
-    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732438835" ignored="false" />
+    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732577445" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
     <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732063525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,10 +77,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_view.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="news_view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/news_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="145" selection-end="145" vertical-scroll-proportion="0.110497236">
+            <state line="5" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.25178826">
               <folding />
             </state>
           </provider>
@@ -101,10 +110,10 @@
         <option value="$PROJECT_DIR$/lib/event_emitter.js" />
         <option value="$PROJECT_DIR$/view_collection/news_view.js" />
         <option value="$PROJECT_DIR$/dispatchers/news_dispatcher.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/models/news.js" />
-        <option value="$PROJECT_DIR$/views/news_view.js" />
         <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
+        <option value="$PROJECT_DIR$/views/news_view.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -438,13 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="376" selection-end="376" vertical-scroll-proportion="0.34334764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dispatchers/news_dispatcher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="31" selection-start="198" selection-end="198" vertical-scroll-proportion="0.13259669">
@@ -468,7 +470,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/news_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="145" selection-end="145" vertical-scroll-proportion="0.110497236">
+        <state line="5" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.25178826">
           <folding />
         </state>
       </provider>
