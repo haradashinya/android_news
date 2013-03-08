@@ -2,7 +2,6 @@ var NewsView = function(em,data){
     var self = this;
     self.template = "";
 
-
     self.render = function(){
         var d = $("#main-view").find(".content");
         var opts = {
@@ -13,5 +12,14 @@ var NewsView = function(em,data){
         d.append(self.template);
         return self;
     };
+
+
+//    $("a").bind("click",function(e){
+//        e.preventDefault();
+//        console.log($(this).attr("href"));
+//        var href = $(this).attr("href");
+//
+//    });
+
     return self;
 };
