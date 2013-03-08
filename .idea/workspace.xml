@@ -5,7 +5,7 @@
     <ignored path="android_news.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362721165835" ignored="false" />
-    <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362721622386" ignored="false" />
+    <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362722325064" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +77,7 @@
       <file leaf-file-name="news.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="25" selection-start="819" selection-end="819" vertical-scroll-proportion="0.3756906">
+            <state line="41" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.5138122">
               <folding />
             </state>
           </provider>
@@ -428,7 +428,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="25" selection-start="819" selection-end="819" vertical-scroll-proportion="0.3756906">
+        <state line="41" column="0" selection-start="941" selection-end="941" vertical-scroll-proportion="0.5138122">
           <folding />
         </state>
       </provider>

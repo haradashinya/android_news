@@ -29,12 +29,7 @@ var NewsModel = function(){
     self.onReceivedCurrentNumber = function(){
         return fetchNews();
     };
-    self.onReceivedNews = function(data){
-        console.log("data");
 
-        console.log(data);
-
-    };
 
 
 
@@ -44,8 +39,7 @@ var NewsModel = function(){
             url: "http://pickalize.info:3001/latest/"+ self.currentNumber,
             dataType: "json",
             success:function(data){
-                console.log(data);
-                em.emit("currentNumber");
+                em.emit("currentNumber",data);
 
             }
         });
