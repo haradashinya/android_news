@@ -18,12 +18,23 @@ var NewsModel = function(){
     };
 
 
-    self.onReceived = function(){
-        console.log("hello world");
-        console.log(self.currentNumber);
+    self.onReceivedCurrentNumber = function(){
+        return fetchNewsFromNum();
     };
 
 
+
+    var fetchNewsFromNum = function(){
+        $.ajax({
+            type: "GET",
+            url: "http://pickalize.info:3001/latest/"+ self.currentNumber,
+            dataType: "json",
+            success:function(data){
+                console.log(data);
+
+            }
+        });
+    };
 
 
 
@@ -34,4 +45,4 @@ var NewsModel = function(){
 
 
 var newsModel = new NewsModel();
-newsModel.fetchLatest(newsModel.onReceived);
+newsModel.fetchLatest(newsModel.onReceivedCurrentNumber);
