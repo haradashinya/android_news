@@ -4,9 +4,9 @@
     <list default="true" id="a40d7241-0c72-457f-a9dc-743f44eacb87" name="Default" comment="" />
     <ignored path="android_news.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732621663" ignored="false" />
+    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732687197" ignored="false" />
     <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731629689" ignored="false" />
-    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732577445" ignored="false" />
+    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362733629177" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
     <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732063525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,7 +71,7 @@
       <file leaf-file-name="news_collection_view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+            <state line="7" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="news_view.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/news_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="38" selection-start="143" selection-end="143" vertical-scroll-proportion="0.08839779">
+            <state line="15" column="15" selection-start="454" selection-end="454" vertical-scroll-proportion="0.33755276">
               <folding />
             </state>
           </provider>
@@ -89,8 +89,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="-8.32">
+            <state line="18" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="-11.52">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="underscore.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/underscore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1225" column="0" selection-start="45621" selection-end="45621" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,13 +124,14 @@
         <option value="$PROJECT_DIR$/models/news.js" />
         <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/underscore.js" />
         <option value="$PROJECT_DIR$/views/news_view.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+    <option name="x" value="388" />
     <option name="y" value="22" />
     <option name="width" value="978" />
     <option name="height" value="878" />
@@ -314,7 +326,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="22" width="978" height="878" extended-state="0" />
+    <frame x="388" y="22" width="978" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -461,23 +473,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1225" column="0" selection-start="45621" selection-end="45621" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+        <state line="7" column="1" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="-8.32">
+        <state line="18" column="27" selection-start="254" selection-end="254" vertical-scroll-proportion="-11.52">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/news_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="143" selection-end="143" vertical-scroll-proportion="0.08839779">
+        <state line="15" column="15" selection-start="454" selection-end="454" vertical-scroll-proportion="0.33755276">
           <folding />
         </state>
       </provider>
