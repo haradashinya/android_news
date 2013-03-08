@@ -4,8 +4,8 @@
     <list default="true" id="a40d7241-0c72-457f-a9dc-743f44eacb87" name="Default" comment="" />
     <ignored path="android_news.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362717541108" ignored="false" />
-    <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362720248542" ignored="false" />
+    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362721165835" ignored="false" />
+    <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362721622386" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,16 +68,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="-3.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zepto.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/zepto.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="89" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="148" selection-end="148" vertical-scroll-proportion="-6.4">
               <folding />
             </state>
           </provider>
@@ -86,7 +77,25 @@
       <file leaf-file-name="news.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="35" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5745856">
+            <state line="34" column="25" selection-start="819" selection-end="819" vertical-scroll-proportion="0.3756906">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="q.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/q.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="9353" selection-end="9353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event_emitter.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/event_emitter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +112,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/lib/zepto.min.js" />
+        <option value="$PROJECT_DIR$/lib/q.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/lib/event_emitter.js" />
         <option value="$PROJECT_DIR$/models/news.js" />
       </list>
     </option>
@@ -159,6 +170,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android_news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -171,6 +196,7 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -372,13 +398,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="82" selection-end="82" vertical-scroll-proportion="-3.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/zepto.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="89" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
@@ -386,9 +405,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/event_emitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="0" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/q.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="9353" selection-end="9353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="148" selection-end="148" vertical-scroll-proportion="-6.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="556" selection-end="556" vertical-scroll-proportion="0.5745856">
+        <state line="34" column="25" selection-start="819" selection-end="819" vertical-scroll-proportion="0.3756906">
           <folding />
         </state>
       </provider>
