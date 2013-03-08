@@ -4,11 +4,11 @@
     <list default="true" id="a40d7241-0c72-457f-a9dc-743f44eacb87" name="Default" comment="" />
     <ignored path="android_news.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362730954030" ignored="false" />
-    <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731150478" ignored="false" />
-    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362730822219" ignored="false" />
+    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731382952" ignored="false" />
+    <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731629689" ignored="false" />
+    <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732438835" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
-    <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731285839" ignored="false" />
+    <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732063525" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,28 +68,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="news_collection_view.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="news_collection_view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19889502">
+            <state line="16" column="1" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/news.js">
+      <file leaf-file-name="news_view.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/news_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_dispatcher.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dispatchers/news_dispatcher.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+            <state line="5" column="12" selection-start="145" selection-end="145" vertical-scroll-proportion="0.110497236">
               <folding />
             </state>
           </provider>
@@ -109,9 +100,10 @@
         <option value="$PROJECT_DIR$/lib/q.js" />
         <option value="$PROJECT_DIR$/lib/event_emitter.js" />
         <option value="$PROJECT_DIR$/view_collection/news_view.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dispatchers/news_dispatcher.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/models/news.js" />
+        <option value="$PROJECT_DIR$/views/news_view.js" />
         <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
       </list>
     </option>
@@ -137,7 +129,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="Scope" currentSubView="Tests" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -150,7 +142,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Tests" />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,20 +160,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="android_news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android_news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view_collection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -444,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.1904762">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/q.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="9353" selection-end="9353" vertical-scroll-proportion="0.4050633">
@@ -465,23 +438,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="376" selection-end="376" vertical-scroll-proportion="0.34334764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dispatchers/news_dispatcher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
+        <state line="6" column="31" selection-start="198" selection-end="198" vertical-scroll-proportion="0.13259669">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="12" column="19" selection-start="290" selection-end="290" vertical-scroll-proportion="0.26519337">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.19889502">
+        <state line="16" column="1" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/news_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="145" selection-end="145" vertical-scroll-proportion="0.110497236">
           <folding />
         </state>
       </provider>

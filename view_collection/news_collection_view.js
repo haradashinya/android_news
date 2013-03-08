@@ -1,12 +1,16 @@
 var NewsCollectionView = function(em){
-    console.log(em);
     var self = this;
     self.items = [];
-    em.on("add",function(d){
+    // go to detail page.
+    em.on("click",function(d){
         console.log(d);
     });
-    self.render = function(d){
-        console.log("called render");
+    self.render = function(items){
+        items.forEach(function(item){
+            var newsView = NewsView(em,item);
+            newsView.render();
+        },self);
+
     };
 
     return self;
