@@ -13,4 +13,6 @@ body {
     list-style-type: none;
     padding: 1rem;
     border: 2px solid #2e2e2e;
-    background: #fafad2; }
+    background: lightYellow; }
+  .content .selected {
+    background: #ffffad; }

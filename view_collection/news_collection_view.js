@@ -17,10 +17,12 @@ var NewsCollectionView = function(em){
     };
 
     em.on("endTemplate",function(res){
-        $("li").bind("click",function(e){
+        $("li").off("click");
+
+        $("li").on("click",function(e){
             e.preventDefault();
             var href = $(this).data("href");
-            console.log($(this).data("href"));
+            $(this).addClass("selected");
             $("#main-view").animate({
                 opacity: 0.0
             },500,"ease-out");
@@ -29,15 +31,6 @@ var NewsCollectionView = function(em){
 
     });
 
-
-//    em.on("receivedAll",function(res){
-//        console.log("called");
-//        $("li").bind("click",function(e){
-//            e.preventDefault();
-//            var d = $(e.target);
-//            console.log(d.data("href"));
-//        },self);
-//    },self);
 
 
 
