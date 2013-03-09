@@ -17,16 +17,7 @@ var NewsView = function(em,data){
 
 
 
-    $("a").bind("click",function(e){
-        console.log("ff");
-        e.preventDefault();
-        var href = $(this).attr("href");
-        // implement animation.
-        $("#main-view").animate({
-            opacity: 0.0
-        },500,"ease-out");
-        window.location.href = href;
-    });
+
 
 
 

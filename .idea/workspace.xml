@@ -8,7 +8,7 @@
     <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731629689" ignored="false" />
     <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362807863803" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
-    <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362808290806" ignored="false" />
+    <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362808599901" ignored="false" />
     <file path="/layout.scss" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362801064250" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +69,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="news_collection_view.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="news_collection_view.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+            <state line="26" column="39" selection-start="893" selection-end="893" vertical-scroll-proportion="0.5745856">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news_view.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="news_view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/news_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="397" selection-end="397" vertical-scroll-proportion="0.27004218">
+            <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
         <option value="$PROJECT_DIR$/css/jqMini.css" />
         <option value="$PROJECT_DIR$/scss/layout.scss" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
         <option value="$PROJECT_DIR$/views/news_view.js" />
+        <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
       </list>
     </option>
   </component>
@@ -504,16 +504,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
+    <entry file="file://$PROJECT_DIR$/views/news_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/news_view.js">
+    <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="397" selection-end="397" vertical-scroll-proportion="0.27004218">
+        <state line="26" column="39" selection-start="893" selection-end="893" vertical-scroll-proportion="0.5745856">
           <folding />
         </state>
       </provider>

@@ -17,9 +17,14 @@ var NewsCollectionView = function(em){
     };
 
     em.on("endTemplate",function(res){
-
         $("li").bind("click",function(e){
+            e.preventDefault();
+            var href = $(this).data("href");
             console.log($(this).data("href"));
+            $("#main-view").animate({
+                opacity: 0.0
+            },500,"ease-out");
+            window.location.href = href;
         },self);
 
     });
