@@ -5,12 +5,15 @@ var NewsCollectionView = function(em){
     em.on("click",function(d){
         console.log(d);
     });
+    em.on("hideMore",function(res){
+        $(".selectedMore").hide();
+    });
     self.render = function(items){
         var d = $("#main-view").find(".content");
         items.forEach(function(item){
             var newsView = NewsView(em,item);
-            newsView.render();
-            d.append(newsView.render().template);
+            var t = $(newsView.render().template);
+            d.append(t);
         },self);
         d.append("<li class='more'>Load More...</li>");
         // if render template method is finished , then watch event.
@@ -19,7 +22,6 @@ var NewsCollectionView = function(em){
 
     em.on("endTemplate",function(res){
         // manage news Items.
-
         $(".items").off("click");
         $(".items").on("click",function(e){
             var $this = $(this);
@@ -33,13 +35,17 @@ var NewsCollectionView = function(em){
         },self);
 
 
+
+        // manage more button.
         $(".more").on("click",function(e){
+            $(".more").off("click");
             console.log("clicked");
             var $this = $(this);
             $this.addClass("selectedMore");
-
+            em.emit("pushToItems",null);
+            $(".selectedMore").html("loading...");
         },self);
-        // manage more button.
+
 
 
 

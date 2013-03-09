@@ -17,12 +17,24 @@ var NewsModel = function(){
 
 
 
+    em.on("pushToItems",function(res){
+        self.currentNumber -= 1;
+        onCurrentNumber(self.currentNumber);
+    },self);
+
+
     // if received currentNumber,then fetch the news.
     em.on("currentNumber",function(res){
         onCurrentNumber(self.currentNumber);
     });
     em.on("receivedNews",function(res){
-        pushToItems(res["data"]);
+        if (self.items.length === 0){
+            pushToItems(res["data"]);
+        }else {
+            self.items = [];
+            pushToItems(res["data"]);
+            em.emit("hideMore");
+        }
     });
 
     self.fetchLatest = function(callback){
@@ -37,11 +49,6 @@ var NewsModel = function(){
         });
 
     };
-
-
-
-
-
     var onCurrentNumber = function(num){
         var requestNews = function(){
                     $.ajax({
@@ -49,6 +56,7 @@ var NewsModel = function(){
             url: "http://pickalize.info:3001/latest/"+ num,
             dataType: "json",
             success:function(data){
+                console.log(data);
                 em.emit("receivedNews",data);
             }
         });
