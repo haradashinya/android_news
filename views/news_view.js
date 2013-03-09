@@ -3,18 +3,22 @@ var NewsView = function(em,data){
     self.template = "";
 
     self.render = function(){
-        var d = $("#main-view").find(".content");
+        // inject data into main-view .content
+//        var d = $("#main-view").find(".content");
         var opts = {
             content: data["content"],
-            href: data["href"].replace('"','',"gim")
+            href: data["href"].replace('"','',"gim"),
+            cls: "items"
         };
-        self.template = _.template('<li><a href="<%= href %>"><%= content %></a></li>',opts);
-        d.append(self.template);
+        self.template = _.template('<li data-href="<%= href %>"><a href="<%= href %>"><%= content %></a></li>',opts);
         return self;
     };
 
 
+
+
     $("a").bind("click",function(e){
+        console.log("ff");
         e.preventDefault();
         var href = $(this).attr("href");
         // implement animation.
@@ -22,8 +26,12 @@ var NewsView = function(em,data){
             opacity: 0.0
         },500,"ease-out");
         window.location.href = href;
-
     });
+
+
+
+
+
 
     return self;
 };
