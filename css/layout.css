@@ -14,5 +14,13 @@ body {
     padding: 1rem;
     border: 2px solid #2e2e2e;
     background: lightYellow; }
+  .content .more {
+    font-weight: bold;
+    background: lightgrey;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 19px; }
   .content .selected {
     background: #ffffad; }
+  .content .selectedMore {
+    background: #b9b9b9; }

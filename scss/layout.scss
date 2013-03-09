@@ -1,4 +1,6 @@
 $lightYellow: #fafad2;
+$moreColor: lightgray;
+$defaultSize: 14px;
 
 body {
   padding: 0;
@@ -21,11 +23,24 @@ body {
     padding: 1rem;
     border: 2px solid #2e2e2e;
     background: lightYellow;
+  }
+
+  .more {
+    font-weight: bold;
+    background: $moreColor;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: $defaultSize + 5px;
 
   }
 
+
   .selected {
     background: darken(lightYellow,10%);
+  }
+
+  .selectedMore {
+    background: darken($moreColor,10%) ;
   }
 
 

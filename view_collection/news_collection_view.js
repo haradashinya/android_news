@@ -12,22 +12,36 @@ var NewsCollectionView = function(em){
             newsView.render();
             d.append(newsView.render().template);
         },self);
+        d.append("<li class='more'>Load More...</li>");
         // if render template method is finished , then watch event.
         em.emit("endTemplate",null);
     };
 
     em.on("endTemplate",function(res){
-        $("li").off("click");
+        // manage news Items.
 
-        $("li").on("click",function(e){
+        $(".items").off("click");
+        $(".items").on("click",function(e){
+            var $this = $(this);
             e.preventDefault();
-            var href = $(this).data("href");
-            $(this).addClass("selected");
+            var href = $this.data("href");
+            $this.addClass("selected");
             $("#main-view").animate({
                 opacity: 0.0
             },500,"ease-out");
             window.location.href = href;
         },self);
+
+
+        $(".more").on("click",function(e){
+            console.log("clicked");
+            var $this = $(this);
+            $this.addClass("selectedMore");
+
+        },self);
+        // manage more button.
+
+
 
     });
 

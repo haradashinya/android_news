@@ -10,7 +10,7 @@ var NewsView = function(em,data){
             href: data["href"].replace('"','',"gim"),
             cls: "items"
         };
-        self.template = _.template('<li data-href="<%= href %>"><a href="<%= href %>"><%= content %></a></li>',opts);
+        self.template = _.template('<li class="<%= cls %>" data-href="<%= href %>"><a href="<%= href %>"><%= content %></a></li>',opts);
         return self;
     };
 
