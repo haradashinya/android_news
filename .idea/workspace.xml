@@ -9,7 +9,7 @@
     <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362809307224" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
     <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362812857374" ignored="false" />
-    <file path="/layout.scss" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362810471222" ignored="false" />
+    <file path="/layout.scss" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362832976521" ignored="false" />
     <file path="/a.dummy" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362810960828" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,10 +70,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="news_collection_view.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="news_collection_view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.35359117">
+            <state line="45" column="37" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -82,16 +82,16 @@
       <file leaf-file-name="news_view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/news_view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+            <state line="12" column="50" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="18" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+            <state line="53" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.7201125">
               <folding />
             </state>
           </provider>
@@ -100,19 +100,8 @@
       <file leaf-file-name="news.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="33" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
+            <state line="34" column="33" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="underscore.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/underscore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1223" column="0" selection-start="45612" selection-end="45612" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,9 +125,9 @@
         <option value="$PROJECT_DIR$/css/jqMini.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/news_view.js" />
-        <option value="$PROJECT_DIR$/scss/layout.scss" />
         <option value="$PROJECT_DIR$/models/news.js" />
         <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
+        <option value="$PROJECT_DIR$/scss/layout.scss" />
       </list>
     </option>
   </component>
@@ -502,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/underscore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1223" column="0" selection-start="45612" selection-end="45612" vertical-scroll-proportion="0.0">
+        <state line="1223" column="0" selection-start="45612" selection-end="45612" vertical-scroll-proportion="0.92827004">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -511,28 +500,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/news_view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+        <state line="34" column="33" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="494" selection-end="494" vertical-scroll-proportion="0.35359117">
+        <state line="45" column="37" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/news_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="50" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1122" selection-end="1122" vertical-scroll-proportion="0.7201125">
           <folding />
         </state>
       </provider>

@@ -43,7 +43,7 @@ var NewsCollectionView = function(em){
             var $this = $(this);
             $this.addClass("selectedMore");
             em.emit("pushToItems",null);
-            $(".selectedMore").html("loading...");
+            $(".selectedMore").html("Loading...");
         },self);
 
 
