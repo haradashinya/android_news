@@ -4,11 +4,12 @@
     <list default="true" id="a40d7241-0c72-457f-a9dc-743f44eacb87" name="Default" comment="" />
     <ignored path="android_news.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362734658442" ignored="false" />
+    <file path="/index.html" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362800147644" ignored="false" />
     <file path="/news.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731629689" ignored="false" />
     <file path="/news_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362735243088" ignored="false" />
     <file path="/news_dispatcher.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362731247646" ignored="false" />
     <file path="/news_collection_view.js" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362732063525" ignored="false" />
+    <file path="/layout.scss" changelist="a40d7241-0c72-457f-a9dc-743f44eacb87" time="1362800167317" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,28 +78,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/news.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news_view.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/news_view.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="23" selection-start="635" selection-end="635" vertical-scroll-proportion="0.47257385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="21" selection-start="182" selection-end="182" vertical-scroll-proportion="-9.6">
+            <state line="5" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.2">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/layout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.08839779">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,8 +135,9 @@
         <option value="$PROJECT_DIR$/view_collection/news_collection_view.js" />
         <option value="$PROJECT_DIR$/lib/underscore.js" />
         <option value="$PROJECT_DIR$/css/jqMini.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/news_view.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/layout.scss" />
       </list>
     </option>
   </component>
@@ -348,15 +350,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946004" sideWeight="0.36640212" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946004" sideWeight="0.37962964" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946004" sideWeight="0.37301588" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946004" sideWeight="0.38624337" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946004" sideWeight="0.6177249" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946004" sideWeight="0.6044974" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -492,6 +494,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/news_view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="179" selection-end="179" vertical-scroll-proportion="0.13502109">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.61878455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view_collection/news_collection_view.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="5" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
@@ -499,23 +515,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/news.js">
+    <entry file="file://$PROJECT_DIR$/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="21" selection-start="182" selection-end="182" vertical-scroll-proportion="-9.6">
+        <state line="5" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="-3.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/news_view.js">
+    <entry file="file://$PROJECT_DIR$/scss/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="635" selection-end="635" vertical-scroll-proportion="0.47257385">
+        <state line="4" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.08839779">
           <folding />
         </state>
       </provider>
